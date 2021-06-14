@@ -1,0 +1,33 @@
+table,
+td,
+th {
+  border: 1px solid white;
+}
+td {
+  text-align: center;
+  height: 50px;
+  vertical-align: middle;
+  padding: 20px;
+}
+
+table {
+  font-family: Arial, sans-serif;
+  width: 300px;
+  margin: auto;
+  background-color: black;
+  resize: none;
+}
+th {
+  font-weight: bold;
+  height: 50px;
+  background-color:red;
+  color:black;
+}
+tr {
+  color: crimson;
+}
+tr:hover {
+  background-color:gray;
+  color: white;
+  font-size:large;
+}
